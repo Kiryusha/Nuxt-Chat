@@ -18,6 +18,14 @@ module.exports = {
     ]
   },
 
+  serverMiddleware: [
+    '@/api/chat',
+  ],
+
+  env: {
+    SOCKET_HOST_URL: process.env.SOCKET_HOST_URL || 'http://localhost:3001'
+  },
+
   /*
   ** Customize the progress-bar color
   */
@@ -63,7 +71,10 @@ module.exports = {
           enforce: 'pre',
           test: /\.(js|vue)$/,
           loader: 'eslint-loader',
-          exclude: /(node_modules)/
+          exclude: /(node_modules)/,
+          options: {
+            formatter: require('eslint-friendly-formatter'),
+          },
         })
       }
     }

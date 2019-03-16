@@ -1,5 +1,5 @@
 {
-  "name": "combobreakers",
+  "name": "chat",
   "version": "1.0.0",
   "description": "My magnificent Nuxt.js project",
   "author": "Kir Kostin",
@@ -14,28 +14,40 @@
     "test": "jest"
   },
   "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "chalk": "^2.4.2",
     "cross-env": "^5.2.0",
+    "express": "^4.16.4",
     "nuxt": "^2.4.0",
-    "@nuxtjs/axios": "^5.3.6"
+    "socket.io": "^2.2.0",
+    "socket.io-client": "^2.2.0"
   },
   "devDependencies": {
-    "nodemon": "^1.18.9",
     "@nuxtjs/eslint-config": "^0.0.1",
+    "@nuxtjs/style-resources": "^0.1.2",
+    "@vue/test-utils": "^1.0.0-beta.27",
+    "babel-core": "7.0.0-bridge.0",
     "babel-eslint": "^8.2.1",
+    "babel-jest": "^24.1.0",
     "eslint": "^5.0.1",
     "eslint-config-standard": ">=12.0.0",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^2.0.0",
     "eslint-plugin-import": ">=2.14.0",
     "eslint-plugin-jest": ">=21.24.1",
     "eslint-plugin-node": ">=7.0.1",
     "eslint-plugin-nuxt": ">=0.4.2",
     "eslint-plugin-promise": ">=4.0.1",
     "eslint-plugin-standard": ">=4.0.0",
-    "eslint-loader": "^2.0.0",
     "eslint-plugin-vue": "^5.0.0",
-    "@vue/test-utils": "^1.0.0-beta.27",
-    "babel-core": "7.0.0-bridge.0",
-    "babel-jest": "^24.1.0",
     "jest": "^24.1.0",
+    "nodemon": "^1.18.9",
+    "nuxt-svg-sprite-module": "^1.0.3",
+    "pug": "^2.0.3",
+    "pug-loader": "^2.4.0",
+    "pug-plain-loader": "^1.0.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
     "vue-jest": "^3.0.3"
   }
 }

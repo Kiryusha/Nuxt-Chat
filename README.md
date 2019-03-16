@@ -1,4 +1,4 @@
-# combobreakers
+# Self-driven nuxt chat
 
 > My magnificent Nuxt.js project
 
